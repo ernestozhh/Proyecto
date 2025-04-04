@@ -229,11 +229,3 @@ public class Main {
     
 } // Fin clase
 
-
-/*
-
-NOTAS:
-
-- Que tan estaticos deben ser los datos? Preguntar a Profe
-
-*/
