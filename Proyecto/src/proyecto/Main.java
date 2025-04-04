@@ -70,11 +70,11 @@ public class Main {
             //Loop para no acceder al sistema hasta haber un usuario valido
             while (isUser == false) {
                 
-                //Llama a crear una ventana para hacer login y retorna los datos
+                //Llaman a crear ventanas para conseguir el usuario y contrasena
                 user = ui.getUser();
                 pass = ui.getPass();
                 
-                //Checks para revisar si se ingreso un usuario valido y si estudiante o profesor
+                //Checks para revisar si se ingreso un usuario valido y si es estudiante o profesor
                 if (registroUsers.indexOf(user) != -1 && registroUsers.indexOf(user) == registroPasses.indexOf(pass)) {
                 
                     isUser = true;
